@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Story — Little Lights Bible Stories</title>
+  <meta name="description" content="Read a kid-friendly Bible story with memory verse, lesson, questions, and activity." />
+  <meta name="theme-color" content="#f6b93b" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#story-body">Skip to story</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3l2.2 4.6 5 .7-3.6 3.5.9 5-4.5-2.4L7.5 16.8l.9-5L4.8 8.3l5-.7L12 3z"/>
+          </svg>
+        </span>
+        <span>Little Lights<small>Bible Stories for Kids</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="index.html#stories">All Stories</a>
+        <a href="index.html#categories">Categories</a>
+        <a href="index.html#verse">Verse of the Day</a>
+        <a href="index.html#features">For Parents</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- top section filled by story.js -->
+  <div class="reader-top">
+    <div class="container" id="readerTop"></div>
+  </div>
+
+  <main class="container" id="main"></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:none;padding-top:0">
+        <span>© <span id="year"></span> Little Lights Bible Stories. Made with care for little hearts.</span>
+        <span><a href="index.html" style="display:inline;padding:0;color:#c8d0e4">← Back to all stories</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/stories-data.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/story.js"></script>
+</body>
+</html>
